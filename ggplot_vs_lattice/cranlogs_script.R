@@ -39,8 +39,8 @@ downloads |>
   scale_x_date(date_breaks = "week", date_labels = "%d-%b-%y") +
   scale_y_continuous(breaks = seq(0, 100000, 10000), labels = scales::comma) +
   theme(axis.line.y = element_line(colour = "gray7")) +
-  theme(legend.position = "top", legend.title = element_blank()) +
-  theme(axis.text.y = element_text(margin = margin(l = 0)))
+  theme(legend.position = "top", legend.title = element_blank()) 
+  
 
 
 # 4.0 You can draw your conclusions The END ---- 
