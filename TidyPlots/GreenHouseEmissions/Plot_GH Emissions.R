@@ -13,7 +13,7 @@ if (!require(pacman)) {
 }
 
 # Manage the installation and loading of relevant packages
-pacman::p_load(tidyplots, tidyverse,scales 
+pacman::p_load(tidyplots, tidyverse
 )
 
 
@@ -25,9 +25,7 @@ energy_data <- read_csv(url)
 # 3.0 FILTER AND SELECT RELEVANT COLUMNS-------------
 
 energy_per_capita <- energy_data |>
-  filter(grepl("income", country, ignore.case = TRUE)) %>% 
-  write_csv("continents.csv")
-
+  filter(grepl("income", country, ignore.case = TRUE)) 
 
 # 4.0 CREATE THE PLOT----------------------------
 
@@ -40,7 +38,7 @@ my_colors <- c("Upper-middle-income countries" = "#4FAE62",
 energy_per_capita |> 
   tidyplot(x = year, y = greenhouse_gas_emissions, color = country) |> 
   add_barstack_absolute() |>
-  add_title("Green House Gas Emissions (megatonnes of CO₂ equivalents per year )") |> 
+  add_title("Green House Carbon Gas Emissions (megatonnes of CO₂ equivalents per year )") |> 
   add_caption("Data source: Our World in Data| Plotted by @RProDigest on X") |> 
   theme_minimal_y() |> 
   adjust_size(230, 100) |> 
