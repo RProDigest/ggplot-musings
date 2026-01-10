@@ -36,11 +36,11 @@ theme_pro_circular <- function() {
       plot.background = element_rect(fill = "#F5F5F2", color = NA),
       panel.background = element_rect(fill = "#F5F5F2", color = NA),
       legend.position = "top",
-      legend.title = element_text(family = "roboto", face = "bold", size = 10, hjust = 0.5),
-      legend.text = element_text(family = "roboto", size = 9),
-      plot.title = element_text(family = "roboto", face = "bold", size = 20, hjust = 0.5, margin = margin(b = 5)),
-      plot.subtitle = element_text(family = "roboto", size = 12, hjust = 0.5, color = "grey30", margin = margin(b = 15)),
-      plot.caption = element_text(family = "roboto", size = 12, hjust = 1, color = "grey5", margin = margin(t = 20))
+      legend.title = element_text(family = "roboto", face = "bold", size = 20, hjust = 0.5),
+      legend.text = element_text(family = "roboto", size = 18),
+      plot.title = element_text(family = "roboto", face = "bold", size = 40, hjust = 0.5, margin = margin(b = 5)),
+      plot.subtitle = element_text(family = "roboto", size = 24, hjust = 0.5, color = "grey30", margin = margin(b = 15)),
+      plot.caption = element_text(family = "roboto", size = 24, hjust = 1, color = "grey5", margin = margin(t = 20))
     )
 }
 
@@ -109,7 +109,7 @@ bar_plot_eur <- ggplot(bar_eur, aes(x = as.factor(id), y = Women, fill = Women))
     angle = bar_eur$angle,
     family = "roboto",
     fontface = "bold",
-    size = 4.5,
+    size = 9,
     color = "grey20",
     inherit.aes = FALSE
   ) +
