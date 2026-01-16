@@ -1,9 +1,10 @@
 
 ################################################################################
-# TITLE: "Does a Degree Still Pay in the USA?
-# AUTHOR: @RProDigest
-# DATE: 2026-01-16
-# DATA SOURCE: ACS 2023, link https://www.census.gov/programs-surveys/acs
+# Title: "Simpson's Paradox: Why Average Water Could Mislead
+# Author: @RProDigest
+# Date: 2026-01-16
+# Data Source: Simulation
+# Inspiration: https://youtu.be/HfRw-nV6b8M
 ################################################################################
 
 # 1. PACKAGES ---------------------------------------------------------------
