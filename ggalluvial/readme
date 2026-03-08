@@ -1,1 +1,5 @@
-try me
+This folder contains the code on how to use the excellent {ggplot2} extension {ggalluvial} and the excellebt {parcats} for interactive flow diagrams.
+In the code we leverage the gapminder dataset and illustrate the ASIA insights namely:
+1952: A massive segment was trapped in <45 years life expectancy and <$1k GDP.
+2007: That same flow has surged into the 60-74 age bracket and the $5k-$15k income tier.
+
