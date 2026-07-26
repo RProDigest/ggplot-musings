@@ -70,7 +70,7 @@ p <- ggplot(df, aes(x = compute, y = loss)) +
     size = 3.8
   ) +
   
-  # FIXED: Passing "richtext" as a string name to annotate()
+  
   annotate(
     "richtext",
     x = 1e21, y = 10,
